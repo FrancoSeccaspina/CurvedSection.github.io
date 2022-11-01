@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 'Poppins';
+    font-weight: 700;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+}
+
+#imagenHeader{
+    margin: auto;
+}
+
+#imagenHeader img{
+    width: 40%;
+}
+
+.try{
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(322, 100%, 66%);
+    background: white;
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px hsl(321, 100%, 78%);
+}
+
+body{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.primerContenedor {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.negro{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.boton {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 16%;
+    border: 1px solid hsl(322, 100%, 66%);
+    background: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    justify-content: center;
+}
+
+
+.ImagenNumeros{
+    width: 100%;
+    flex-direction: column;
+}
+
+.compu{
+    width: 100%;
+    padding: 1rem;
+}
+
+.Ilustracion{
+    width: 100%;
+}
+
+.NEGRO{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numero1{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;;
+}
+
+.iconos{
+    width: 6%;
+}
+
+.Grande{
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#numero2{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;;
+}
+
+.grow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#abajo{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Ilustacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot{
+    width: 100%;
+    display: block;
+}
+
+footer{
+    width: 100%;
+}
+
+.contenedorColor {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#tituloBlanco{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.footerUno img{
+    width: 100%;
+    height: 0%;
+    margin-top: 1rem;
+}
+
+form{
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+}
+
+#email[type="email"] {
+    width: 60%;
+    height: 38px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+}
+
+#error{
+    padding: 1rem;
+    color: hsl(0, 100%, 63%);
+}
+
+button{
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+}
+
+#imagenFooter{
+    display: flex;
+    color: white;
+    padding: 1rem;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#imagenFooter img{
+    color: white;
+    background: white;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    margin: auto;
+}
+
+.blanco{
+    padding: 1rem;
+}
+
+.contenedorDos  , .Iconos{
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    color: white;
+}
+
+.moverIcono1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.moverIcono2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.Iconos {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.Iconos i{
+    font-size: 1.5rem;
+}
+
+.attribution{
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .try {
+        border: 1px solid hsl(321, 100%, 78%);
+        color: hsl(322, 100%, 66%);
+        background: white;
+        padding: 0.5rem;
+        border-radius: 20%;
+        display: flex;
+        width: 7%;
+        box-shadow: 1px 1px 1px hsl(321deg 100% 78%);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #imagenHeader {
+        margin: 0; 
+    }
+
+    .negroClaro{
+        width: 30%;
+        text-align: center;
+    }
+
+    .boton {
+        width: 12%;
+        display: flex;
+        border-radius: 16%;
+        border: 1px solid rgb(255, 82, 191);
+        background: rgb(255, 82, 191);
+        color: white;
+        box-shadow: black 1px 1px 1px;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .compu {
+        width: 100%;
+        padding: 14rem;
+    }
+
+    .Numeros{
+        width: 100%;
+        display: flex;
+        margin-top: -12%;
+    }
+
+    .grow{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .crece{
+        width: 50%;
+    }
+
+    #abajo {
+        margin: auto;
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+    .negro {
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .NegroClaro {
+        display: flex;
+        width: 30%;
+    }
+
+    .ilustacion{
+        display: flex;
+    }
+
+    .Ilustracion{
+        width: 50%;
+    }
+
+    .MOVER{
+        display: flex;
+        width: 100%;
+        margin-top: -14%;
+    }
+    
+    .user{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1rem;
+    }
+
+    .conversacion{
+        display: flex;
+        width: 50%;
+    }
+
+    .NEGRO{
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        text-align: center;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: stretch;
+        justify-content: flex-end;
+    }
+
+    .footerUno {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: hsl(192, 100%, 9%);
+    }
+
+    .foot{
+        display: none;
+    }
+}
